@@ -1,14 +1,11 @@
-
-
 > ![logo](https://docsify.js.org/_media/icon.svg)
 
-# 豆瓣影音
+# Hello World 
 
-> 使用Vue全家桶+Node.js搭建的小型全栈项目.
-
-* 前端框架：vue-cli、vue-router、axios、vuex
-* UI类库：Mint-UI、Vant
-* 后端数据接口：Express、MongoDB
+> 也是没谁了...
 
 [GitHub](https://github.com/bravehui9402)
-[Get Started](#quick-start)
+[开始阅读](README.md)
+
+<!-- 背景色 -->
+![color](#2f4253)
