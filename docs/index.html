@@ -15,19 +15,38 @@
   <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-defaults.css">-->
   <!-- Theme: Defaults -->
   <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-defaults.css">-->
+  <!-- Markdown 引用样式美化 -->
+  <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
 </head>
 <body>
-<div id="app">加载中</div>
+<div id="app">🏃‍🏃‍🏃‍💨加载中</div>
+<a class="to-top">Top</a>
 <script>
   window.$docsify = {
-    name: '',
-    repo: '',
+    name: '📖 LH WiKi',
+    repo: 'https://github.com/bravehui9402',
     coverpage: true,
-    loadSidebar: true
+    loadNavbar: true,
+
+
+    footer: {
+      copy: 'Copyright &copy; 2021 💖 </span>',
+      auth: ' <strong>刘晖的学习笔记</strong>',
+      pre: '<hr/>',
+      style: 'text-align: center;',
+    },
   }
 </script>
-<!-- Docsify v4 -->
 <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+<!-- 访问量统计 -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<!-- 置顶插件 -->
+<script src="style/jquery-1.11.3.min.js"></script>
+<script src="style/jquery.toTop.min.js"></script>
+<script>
+  $('.to-top').toTop();
+</script>
 </body>
 </html>
