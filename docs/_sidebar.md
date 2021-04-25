@@ -1,13 +1,13 @@
 
-- [框架]()
-    - [Spring]()
-    - [SpringMVC]()
-    - [Mybatis]()
-    - [SpringBoot]()
-- [缓存中间件](缓存中间件/redis)
-    - [Redis](缓存中间件/redis)
+- 框架
+    - Spring
+    - SpringMVC
+    - Mybatis
+    - SpringBoot
+- 缓存中间件
+    - Redis
         - [Redis安装](缓存中间件/redis/redis-安装.md)
         - [Redis数据类型](缓存中间件/redis/redis-数据类型.md)
-- [设计模式]()
-- [消息中间件](缓存中间件/redis/redis-数据类型.md)
-    - [Kafka]()
+- 设计模式
+- 消息中间件
+    - Kafka
