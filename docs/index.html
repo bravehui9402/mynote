@@ -17,6 +17,9 @@
 <!--  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">-->
   <!-- Markdown 引用样式美化 -->
 <!--  <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>-->
+
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />
 </head>
 <body>
 <div id="app">🏃‍🏃‍🏃‍💨加载中</div>
@@ -26,15 +29,20 @@
     repo: 'https://github.com/bravehui9402',
     coverpage: true,
     loadSidebar: true,
-    subMaxLevel: 4,
+    subMaxLevel: 1,
+    maxLevel: 4, /*默认情况下会抓取文档中所有标题渲染成目录，可配置最大支持渲染的标题层级。*/
+    loadNavbar: true,
     auto2top: true,
     onlyCover: false,
+    notFoundPage: 'README.md',
+    sidebarDisplayLevel: 1,
   }
 </script>
 <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
 
 </body>
 </html>

@@ -1,13 +1,13 @@
-- [设计模式]()
+
+- [框架]()
+    - [Spring]()
+    - [SpringMVC]()
+    - [Mybatis]()
+    - [SpringBoot]()
 - [缓存中间件](缓存中间件/redis)
-    - [redisa](缓存中间件/redis/redisa.)
-        - [Redis](缓存中间件/redis/redisa/redis.md)
-        - [Redis安装](缓存中间件/redis/redisa/redis-安装.md)
-- [消息中间件](缓存中间件/redis/redisa/redis.md)
-    - [kafka]
-- [框架]
-    - [spring]
-        - [1]
-        - [2]
-    - [springmvc]
-    - [mybatis]
+    - [Redis](缓存中间件/redis)
+        - [Redis安装](缓存中间件/redis/redis-安装.md)
+        - [Redis数据类型](缓存中间件/redis/redis-数据类型.md)
+- [设计模式]()
+- [消息中间件](缓存中间件/redis/redis-数据类型.md)
+    - [Kafka]()
