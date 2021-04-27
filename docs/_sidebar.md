@@ -6,8 +6,14 @@
     - SpringBoot
 - 缓存中间件
     - Redis
-        - [Redis安装](缓存中间件/redis/redis-安装.md)
-        - [Redis数据类型](缓存中间件/redis/redis-数据类型.md)
+        - [Redis数据类型](缓存中间件/redis/1、redis-数据类型.md)
+        - [Redis事务](缓存中间件/redis/2、redis-事务.md)
+        - [Redis持久化](缓存中间件/redis/3、redis-持久化.md)
+        - [Redis高可用](缓存中间件/redis/4、redis-高可用.md)
+        - [Redis整合Spring](缓存中间件/redis/5、redis-Spring整合.md)
+        - [Redis整合SpringBoot](缓存中间件/redis/6、redis-SpringBoot整合.md)
+        - [Redis分布式锁](缓存中间件/redis/7、redis-分布式锁.md)
+        - [Redis缓存穿透、缓存击穿、缓存雪崩](缓存中间件/redis/8、redis-缓存穿透、缓存击穿、缓存雪崩.md)
 - 设计模式
 - 消息中间件
     - Kafka
