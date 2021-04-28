@@ -216,7 +216,7 @@ cluster集群特点：
 
 ```shell
 # vi /usr/local/redis/cluster/redis_7001.conf
-bind 127.0.0.1
+# bind 127.0.0.1
 port 7001
 daemonize yes
 pidfile "/var/run/redis_7001.pid"
@@ -230,7 +230,7 @@ cluster-config-file nodes_7001.conf
 cluster-node-timeout 15000
 
 # vi /usr/local/redis/cluster/redis_7002.conf
-bind 127.0.0.1
+# bind 127.0.0.1
 port 7002
 daemonize yes
 pidfile "/var/run/redis_7002.pid"
