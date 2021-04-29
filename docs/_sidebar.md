@@ -14,6 +14,7 @@
         - [Redis整合SpringBoot](缓存中间件/redis/6、redis-SpringBoot整合.md)
         - [Redis分布式锁](缓存中间件/redis/7、redis-分布式锁.md)
         - [Redis缓存穿透、缓存击穿、缓存雪崩](缓存中间件/redis/8、redis-缓存穿透、缓存击穿、缓存雪崩.md)
+        - [Redis内存分配策略](缓存中间件/redis/9、redis-内存分配策略.md)
 - 设计模式
 - 消息中间件
     - Kafka
