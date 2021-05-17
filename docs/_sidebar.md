@@ -9,10 +9,8 @@
     - [线程的创建](多线程/线程的创建.md)
 - JVM
     - [虚拟机内存划分](JVM/1、Java内存区域.md)
-    - [对象创建过程](JVM/2、对象创建过程.md)
-    - [GC](JVM/3、GC.md)
-    - [类加载机制](JVM/4、类加载机制.md)
-
+    - [GC](JVM/2、GC.md)
+    - [类加载机制](JVM/3、类加载机制.md)
 - 框架
     - Spring
         - [SpringIOC、DI](Spring/1、Spring%20IOC、DI.md)
@@ -21,6 +19,8 @@
         - [SpringMVC执行流程](SpringMVC/1、SpringMVC执行流程.md)
     - Mybatis
     - SpringBoot
+- 消息中间件
+    - Kafka
 - 缓存中间件
     - Redis
         - [Redis数据类型](缓存中间件/redis/1、redis-数据类型.md)
@@ -32,7 +32,11 @@
         - [Redis分布式锁](缓存中间件/redis/7、redis-分布式锁.md)
         - [Redis缓存穿透、缓存击穿、缓存雪崩](缓存中间件/redis/8、redis-缓存穿透、缓存击穿、缓存雪崩.md)
         - [Redis内存分配策略](缓存中间件/redis/9、redis-内存分配策略.md)
+- 搜索中间件
+- 网络编程
+- 数据库
+- Linux 
 - 设计模式
+    - [工厂模式](设计模式/工厂模式.md)
 
-- 消息中间件
-    - Kafka
+
