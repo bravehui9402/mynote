@@ -40,6 +40,9 @@
 - 搜索中间件
     - Solr
         - [solr集群部署](搜索引擎/Solr/solr集群部署.md)
+- 分布式中间件
+    - Zookeeper
+        - [zookeeper](分布式中间件/zookeeper.md)
 - 网络编程
 - Linux 
 - 设计模式
